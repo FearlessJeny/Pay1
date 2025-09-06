@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Название Магазина</title>
+
+
+
+</head>
+
+<body>
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+
+            <!--==================== LOGO ====================-->
+            <a href="#" class="nav__logo"> PayMe </a>
+
+            <!--==================== MENU ====================-->
+            <div class="nav__menu" id="nav-menu">
+
+                <ul class="nav__list">
+
+
+                    <li class="nav__item">
+                        <a href="#home" data-file="card/soft.html" class="nav__link active-link1 active-link">
+                            <img src="img/icons/software.webp" alt="">
+                            <!-- <span>SOFT</span> -->
+                            
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#soft" data-file="card/game.html" class="nav__link">GAME</a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="#game" data-file="game" id="1" class="nav__link">1</a>
+                    </li> -->
+                    <li class="nav__item">
+                        <a href="#products" data-file="card/product.html" class="nav__link">PRODUCTS</a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-square-xmark"></i>
+                </div>
+            </div>
+            <!-- Toggle Button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+    </header>
+    <!--==================== MAIN ====================-->
+<main class="main">
+    <!--==================== PROFILE CARD ====================-->
+    <section class="card section">
+
+ <div class="card__container container grid card--container" id="cards" aria-live="polite"></div>
+    </section>
+</main>
+
+
+<button class="scrollup" id="scroll-up">
+    <i class="fas fa-arrow"></i>
+</button>
+
+
+ <!-- Контейнер для панорам -->
+    <div id="product-panoramas" style="display:none;"></div>
+
+    <!-- Контейнер для описаний -->
+    <div id="product-descriptions" style="display:none;"></div>
+
+
+<!-- <div id="product-panoramas" style="display:none;">
+    <div class="panorama-set" data-id="1">
+        <img src="img/demo/3.png" alt="">
+        <img src="img/demo/7.webp" alt="">
+        <img src="img/demo/1.webp" alt="">
+    </div>
+    <div class="panorama-set" data-id="2">
+        <img src="panorama4.jpg" alt="">
+        <img src="panorama5.jpg" alt="">
+    </div>
+</div>
+
+
+
+<div id="product-descriptions" style="display:none;">
+    <div class="description" data-id="1">
+        Это подробное описание товара Самокат. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </div>
+    <div class="description" data-id="2">
+        2222222222222222222222222222
+    </div>
+</div> -->
+
+
+
+
+
+
+    <!-- Script -->
+    <script src="index.js"></script>
+
+
+     <script src="js/load-cards.js"></script>
+
+
+    <script src="js/cardfun.js"></script>
+    <!-- <script src="card.js"></script> -->
+    
+    <script src="https://kit.fontawesome.com/ec963f1483.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+[
+	{
+		"id": 1,
+		"name": "VR Игра #1",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+		"price": "200₪",
+		"image": "img/demo/1.webp",
+		"category": "game",
+        "glav": "ggggg",
+		"whatsapp": "0532570604"
+	},
+	{
+		"id": 2,
+		"title": "Клавиатура механическая",
+		"price": "350₪",
+		"image": "img/demo/2.webp",
+		"category": "products"
+	},
+	{
+		"id": 3,
+		"title": "Настольная игра Монополия",
+		"price": "120₪",
+		"image": "img/demo/8.webp",
+		"category": "game"
+	},
+	{
+		"id": 4,
+		"name": "VR Игра #1",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+		"price": "200₪",
+		"image": "img/demo/1.webp",
+		"category": "game",
+        "glav": "ggggg",
+		"phone": "0532570604"
+	},{
+		"id": 5,
+		"name": "VR Игра #1",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+		"price": "200₪",
+		"image": "img/demo/1.webp",
+		"category": "game",
+        "glav": "ggggg",
+		"phone": "0532570604"
+	}
+]
+
+
